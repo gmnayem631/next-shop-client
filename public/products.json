@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "description": "Noise-cancelling over-ear headphones with 30h battery life.",
+    "price": 99.99,
+    "category": "Electronics",
+    "image": "https://picsum.photos/seed/headphones/400/300",
+    "stock": 42,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Smartwatch Pro",
+    "description": "Track your health, fitness, and notifications on the go.",
+    "price": 149.99,
+    "category": "Electronics",
+    "image": "https://picsum.photos/seed/smartwatch/400/300",
+    "stock": 30,
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "name": "Ergonomic Office Chair",
+    "description": "Adjustable comfort with lumbar support for long working hours.",
+    "price": 229.0,
+    "category": "Furniture",
+    "image": "https://picsum.photos/seed/chair/400/300",
+    "stock": 18,
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "4K Ultra HD Monitor",
+    "description": "27-inch display with crystal-clear resolution and HDR support.",
+    "price": 379.99,
+    "category": "Electronics",
+    "image": "https://picsum.photos/seed/monitor/400/300",
+    "stock": 12,
+    "rating": 4.8
+  },
+  {
+    "id": 5,
+    "name": "Running Shoes",
+    "description": "Lightweight and breathable shoes designed for athletes.",
+    "price": 79.99,
+    "category": "Fashion",
+    "image": "https://picsum.photos/seed/shoes/400/300",
+    "stock": 60,
+    "rating": 4.3
+  },
+  {
+    "id": 6,
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with rich bass and 12h battery life.",
+    "price": 49.99,
+    "category": "Electronics",
+    "image": "https://picsum.photos/seed/speaker/400/300",
+    "stock": 85,
+    "rating": 4.6
+  },
+  {
+    "id": 7,
+    "name": "Coffee Maker",
+    "description": "Programmable drip coffee machine with 12-cup capacity.",
+    "price": 89.99,
+    "category": "Home Appliances",
+    "image": "https://picsum.photos/seed/coffeemaker/400/300",
+    "stock": 25,
+    "rating": 4.4
+  },
+  {
+    "id": 8,
+    "name": "Gaming Keyboard",
+    "description": "Mechanical keyboard with RGB lighting and programmable keys.",
+    "price": 119.99,
+    "category": "Electronics",
+    "image": "https://picsum.photos/seed/keyboard/400/300",
+    "stock": 50,
+    "rating": 4.5
+  },
+  {
+    "id": 9,
+    "name": "Travel Backpack",
+    "description": "Waterproof, multi-compartment backpack for daily use.",
+    "price": 59.99,
+    "category": "Fashion",
+    "image": "https://picsum.photos/seed/backpack/400/300",
+    "stock": 70,
+    "rating": 4.1
+  },
+  {
+    "id": 10,
+    "name": "Electric Kettle",
+    "description": "Fast-boiling stainless steel kettle with auto shut-off.",
+    "price": 39.99,
+    "category": "Home Appliances",
+    "image": "https://picsum.photos/seed/kettle/400/300",
+    "stock": 40,
+    "rating": 4.6
+  },
+  {
+    "id": 11,
+    "name": "Yoga Mat",
+    "description": "Non-slip, eco-friendly yoga mat for daily workouts.",
+    "price": 29.99,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/yogamat/400/300",
+    "stock": 100,
+    "rating": 4.3
+  },
+  {
+    "id": 12,
+    "name": "DSLR Camera",
+    "description": "Professional 24MP camera with 4K video recording.",
+    "price": 799.0,
+    "category": "Electronics",
+    "image": "https://picsum.photos/seed/camera/400/300",
+    "stock": 15,
+    "rating": 4.9
+  },
+  {
+    "id": 13,
+    "name": "Smart Desk Lamp",
+    "description": "Touch control LED lamp with wireless charging pad.",
+    "price": 69.99,
+    "category": "Home Appliances",
+    "image": "https://picsum.photos/seed/lamps/400/300",
+    "stock": 32,
+    "rating": 4.4
+  },
+  {
+    "id": 14,
+    "name": "Electric Scooter",
+    "description": "Foldable scooter with 25-mile range and fast charging.",
+    "price": 499.99,
+    "category": "Transport",
+    "image": "https://picsum.photos/seed/scooter/400/300",
+    "stock": 10,
+    "rating": 4.7
+  },
+  {
+    "id": 15,
+    "name": "Air Purifier",
+    "description": "HEPA filter purifier with smart air quality sensors.",
+    "price": 129.99,
+    "category": "Home Appliances",
+    "image": "https://picsum.photos/seed/airpurifier/400/300",
+    "stock": 22,
+    "rating": 4.5
+  },
+  {
+    "id": 16,
+    "name": "Fitness Tracker Band",
+    "description": "Waterproof fitness band with heart rate and sleep tracking.",
+    "price": 59.99,
+    "category": "Fitness",
+    "image": "https://picsum.photos/seed/fitband/400/300",
+    "stock": 55,
+    "rating": 4.2
+  },
+  {
+    "id": 17,
+    "name": "Drone Pro X",
+    "description": "High-end drone with 4K camera and 3-axis gimbal stabilization.",
+    "price": 999.99,
+    "category": "Electronics",
+    "image": "https://picsum.photos/seed/drone/400/300",
+    "stock": 8,
+    "rating": 4.9
+  },
+  {
+    "id": 18,
+    "name": "Electric Toothbrush",
+    "description": "Rechargeable toothbrush with multiple cleaning modes.",
+    "price": 49.99,
+    "category": "Personal Care",
+    "image": "https://picsum.photos/seed/toothbrush/400/300",
+    "stock": 65,
+    "rating": 4.3
+  },
+  {
+    "id": 19,
+    "name": "Noise-Cancelling Earbuds",
+    "description": "Compact earbuds with active noise cancellation and fast charge.",
+    "price": 129.99,
+    "category": "Electronics",
+    "image": "https://picsum.photos/seed/earbuds/400/300",
+    "stock": 38,
+    "rating": 4.6
+  },
+  {
+    "id": 20,
+    "name": "Smart Home Hub",
+    "description": "Control lights, security, and smart devices from one hub.",
+    "price": 159.99,
+    "category": "Smart Home",
+    "image": "https://picsum.photos/seed/smarthub/400/300",
+    "stock": 20,
+    "rating": 4.5
+  }
+]

@@ -6,7 +6,7 @@ import product from "@/public/product.png";
 const Hero = () => {
   return (
     <section className="bg-[#f9fafb]">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16 flex flex-col lg:flex-row items-center gap-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16 flex flex-col-reverse lg:flex-row items-center gap-12">
         {/* Left Content */}
         <div className="flex-1 text-center lg:text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-[#10B981] leading-tight">
