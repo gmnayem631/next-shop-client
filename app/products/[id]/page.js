@@ -7,9 +7,11 @@ import { notFound } from "next/navigation";
 import { motion } from "framer-motion";
 import products from "@/data/products.json";
 
-export default function ProductDetails(props) {
+const ProductDetailsPage = (props) => {
+  // Unwrap params for future-proof Next.js 15+
   const { id } = React.use(props.params);
 
+  // Find product by ID
   const product = products.find((p) => p.id === Number(id));
   if (!product) notFound();
 
@@ -121,4 +123,6 @@ export default function ProductDetails(props) {
       </div>
     </motion.section>
   );
-}
+};
+
+export default ProductDetailsPage;
