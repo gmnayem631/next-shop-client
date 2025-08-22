@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import productsData from "@/public/products.json";
+import productsData from "@/data/products.json";
 
 const ProductList = () => {
   const [visibleCount, setVisibleCount] = useState(12);

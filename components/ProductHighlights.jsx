@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import products from "@/public/products.json";
+import products from "@/data/products.json";
 
 const ProductHighlights = () => {
   // Pick first 4 products
