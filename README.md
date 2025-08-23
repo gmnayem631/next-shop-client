@@ -1,4 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NextShop
+
+## Project Description
+NextShop is a modern e-commerce frontend built using **Next.js 15 (App Router)**, **Tailwind CSS**, and **DaisyUI**. The application features a clean landing page, product listing, product details, and a protected dashboard page for adding new products. Users can authenticate using **Google login** powered by **NextAuth.js**.
+
+The design follows a simple, professional style with a **green-teal primary palette** and soft accent colors for buttons and highlights. Animations are added via **Framer Motion** for a modern, engaging feel.
+
+---
+
+## Features
+- Landing page with **Hero**, **Product Highlights**, and **Footer**
+- Public **Product Listing** and **Dynamic Product Details**
+- Protected **Add Product Page** (requires login)
+- Google authentication using **NextAuth.js**
+- Responsive, modern design with **Tailwind CSS** and **DaisyUI**
+- Optional animations using **Framer Motion**
+- Color palette: 
+  - **Primary Teal:** `#00BDAA`  
+  - **Accent Muted Purple:** `#6B4E71`  
+  - **Dark Mode Base:** `#3A4454`  
+
+---
+
+## Setup & Installation
+
+### Prerequisites
+- Node.js v18+
+- npm or yarn
+
+### Steps
+1. **Clone the repository**
+```bash
+git clone https://github.com/gmnayem631/nextshop.git
+cd nextshop
+
 
 ## Getting Started
 
