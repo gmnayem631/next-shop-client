@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import productsData from "@/data/products.json";
 
-const ProductList = () => {
+function ProductList() {
   const [visibleCount, setVisibleCount] = useState(12);
 
   const handleLoadMore = () => {
@@ -66,6 +66,6 @@ const ProductList = () => {
       )}
     </section>
   );
-};
+}
 
 export default ProductList;

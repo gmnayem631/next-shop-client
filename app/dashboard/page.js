@@ -1,52 +1,51 @@
 "use client";
-
-import Loading from "@/components/Loading";
 import { useSession } from "next-auth/react";
-import { redirect } from "next/navigation";
+import Link from "next/link";
 
-export default function DashboardPage() {
-  const { data: session, status } = useSession();
-
-  if (status === "loading") {
-    return <Loading></Loading>;
-  }
-
-  if (!session) {
-    redirect("/login"); // Protect the dashboard
-  }
+export default function DashboardHome() {
+  const { data: session } = useSession();
 
   return (
-    <div className="drawer lg:drawer-open">
-      {/* Drawer toggle for small screens */}
-      <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-
-      <div className="drawer-content p-6">
-        {/* Page content */}
-        <label
-          htmlFor="my-drawer"
-          className="btn btn-primary drawer-button lg:hidden"
-        >
-          Open drawer
-        </label>
-
-        <h1 className="text-2xl font-bold">Welcome, {session.user?.name}</h1>
-        <p>Email: {session.user?.email}</p>
+    <div className="space-y-6">
+      {/* Welcome card */}
+      <div className="bg-white p-6 rounded-lg shadow-md">
+        <h1 className="text-3xl font-bold mb-2">
+          Welcome, {session?.user?.name} 👋
+        </h1>
+        <p className="text-gray-600 mb-4">Email: {session?.user?.email}</p>
+        {session?.user?.image && (
+          <img
+            src={session.user.image}
+            alt={session.user.name}
+            className="w-20 h-20 rounded-full shadow-md"
+          />
+        )}
       </div>
 
-      <div className="drawer-side">
-        <label
-          htmlFor="my-drawer"
-          aria-label="close sidebar"
-          className="drawer-overlay"
-        ></label>
-        <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-          <li>
-            <a>Dashboard Home</a>
-          </li>
-          <li>
-            <a>Add Items</a>
-          </li>
-        </ul>
+      {/* Quick Links */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <Link
+          href="/dashboard/addItem"
+          className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-4 px-6 rounded-lg shadow-md text-center transition-colors"
+        >
+          Add Item
+        </Link>
+
+        <Link
+          href="/products"
+          className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-4 px-6 rounded-lg shadow-md text-center transition-colors"
+        >
+          All Products
+        </Link>
+      </div>
+
+      {/* Info Section */}
+      <div className="bg-base-100 p-4 rounded-lg shadow-inner text-gray-700">
+        <p>
+          Here’s your dashboard overview. You can add new items, manage existing
+          ones, and update your profile settings. The sidebar on the left lets
+          you navigate quickly.
+        </p>
       </div>
     </div>
   );
